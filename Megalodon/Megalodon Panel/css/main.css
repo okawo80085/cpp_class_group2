@@ -1,0 +1,793 @@
+@import url('https://fonts.googleapis.com/css?family=Electrolize');
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-image: url('../img/bg.png');
+	font-family: 'Electrolize', sans-serif;
+	color: #FFF;
+}
+
+fieldset
+{
+	padding: 5px;
+	margin-bottom: 20px;
+	color: #FFF;
+	border: 1px rgba(255, 255, 255, 0.8) solid;
+}
+
+legend
+{
+	color: limegreen;
+	padding: 5px;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.95em;
+}
+
+a
+{
+	color: lightblue;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: lightblue;
+	text-decoration: none;
+}
+
+.checktext
+{
+	padding: 0px 10px 0px 0px;
+}
+
+.red
+{
+	color: red;
+}
+
+.orange
+{
+	color: orange;
+}
+
+.grey
+{
+	color: grey;
+}
+
+#online
+{
+	color: #FFF;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.8em;
+	padding: 12px 10px 5px 20px;
+	float: left;
+}
+
+#offline
+{
+	color: #FFF;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.8em;
+	padding: 12px 10px 5px 10px;
+	float: left;
+}
+
+#grey
+{
+	color: #FFF;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.8em;
+	padding: 12px 10px 5px 10px;
+	float: left;
+}
+
+#total
+{
+	color: #FFF;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.8em;
+	padding: 12px 10px 5px 10px;
+	float: left;
+}
+
+#name
+{
+	min-width: 300px;
+	color: #FFF;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.8em;
+	position: absolute;
+	right: 80px;
+	text-align: right;
+	padding: 12px 10px 5px 10px;
+}
+
+#searchbar
+{
+	padding: 4px 5px 5px 10px;
+}
+
+#searchbar input[type="text"]
+{
+	width: 200px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 1px #333 solid;
+	padding: 6px 5px 6px 5px;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.7em;
+	color: limegreen;
+	outline-color: limegreen;
+	float: left;
+}
+
+#logs-title
+{
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.9em;
+	padding: 9px 20px 5px 5px;
+	color: #FFF;
+	float: left;
+}
+
+#content-box table img:hover
+{
+	cursor: pointer;
+}
+
+#content-box-map
+{
+	width: 100%;
+	height: 400px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#statboxes
+{
+	width: 100%;
+	margin-top: 20px;
+}
+
+#stat-box
+{
+	width: 49%;
+	float: left;
+}
+
+#stat-box2
+{
+	width: 49%;
+	margin-left: 2%;
+	float: left;
+}
+
+#stat-header
+{
+	width: 100%;
+	height: 30px;
+	background-color: #111;
+	border-top: 1px rgba(70, 70, 70, 0.8) solid;
+	border-left: 1px rgba(70, 70, 70, 0.8) solid;
+	border-right: 1px rgba(70, 70, 70, 0.8) solid;
+}
+
+#stat-title
+{
+	color: #FFF;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.9em;
+	padding: 7px 5px 5px 5px;
+}
+
+#stat-text
+{
+	
+}
+
+#stat-content
+{
+	width: 100%;
+	background-color: #444;
+	border-left: 1px rgba(70, 70, 70, 0.8) solid;
+	border-right: 1px rgba(70, 70, 70, 0.8) solid;
+	border-bottom: 1px rgba(70, 70, 70, 0.8) solid;
+}
+
+#stat-content .tablehead
+{
+	
+}
+
+#stat-content table
+{
+	
+}
+
+#stat-content th
+{
+	
+}
+
+#stat-content tr
+{
+	
+}
+
+#stat-content tr:nth-child(odd)
+{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#stat-content td
+{
+	
+}
+
+.task-result
+{
+	padding-left: 5px;
+}
+
+.user-result
+{
+	padding-left: 5px;
+}
+
+.green
+{
+	color: limegreen;
+}
+
+.icon
+{
+	padding: 0px 10px 0px 0px;
+	float: left;
+}
+
+.flag
+{
+	padding: 1px 0px 0px 0px;
+}
+
+.current
+{
+	background-color: #333;
+}
+
+input[type="checkbox"]
+{
+	width: 13px;
+	height: 13px;
+}
+
+input[type="checkbox"]:hover
+{
+	cursor: pointer;
+}
+
+#wrapper
+{
+	width: 100%;
+}
+
+#header
+{
+	width: 100%;
+	height: 35px;
+	position: fixed;
+	background-color: rgba(10, 10, 10, 0.5);
+	border-bottom: 5px rgba(0, 255, 0, 0.6) solid;
+	z-index: 100;
+}
+
+#header-title
+{
+	color: #FFF;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 1em;
+	padding: 9px 5px 10px 20px;
+}
+
+#header-left
+{
+	position: fixed;
+	height: 35px;
+	top: 0px;
+	left: 200px;
+}
+
+#header-right
+{
+	position: fixed;
+	top: 0px;
+	right: 20px;
+}
+
+#header ul
+{
+	list-style: none;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#header li a
+{
+	display: block;
+	color: #FFF;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.8em;
+	text-decoration: none;
+	padding: 12px 0px 5px 0px;
+}
+
+#header li a:hover
+{
+	display: block;
+	color: red;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.8em;
+	text-decoration: none;
+	padding: 12px 0px 5px 0px;
+	cursor: pointer;
+}
+
+#menu
+{
+	width: 200px;
+	position: fixed;
+	top: 40px;
+	left: 0px;
+	bottom: 0px;
+	background-color: rgba(50, 50, 50, 0.5);
+	border-right: 1px rgba(0, 0, 0, 0.9) solid;
+}
+
+#menu ul
+{
+	list-style: none;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu li a
+{
+	display: block;
+	color: #FFF;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.9em;
+	text-decoration: none;
+	padding: 15px 10px 15px 20px;	
+	-webkit-transition: background-color 300ms linear;
+	-moz-transition: background-color 300ms linear;
+	-o-transition: background-color 300ms linear;
+	-ms-transition: background-color 300ms linear;
+	-webkit-transition: color 300ms linear;
+	-moz-transition: color 300ms linear;
+	-o-transition: color 300ms linear;
+	-ms-transition: color 300ms linear;
+}
+
+#menu li a:hover
+{
+	display: block;
+	color: limegreen;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.9em;
+	text-decoration: none;
+	padding: 15px 10px 15px 20px;
+	background-color: #333;
+	cursor: pointer;	
+	-webkit-transition: background-color 300ms linear;
+	-moz-transition: background-color 300ms linear;
+	-o-transition: background-color 300ms linear;
+	-ms-transition: background-color 300ms linear;
+	-webkit-transition: color 300ms linear;
+	-moz-transition: color 300ms linear;
+	-o-transition: color 300ms linear;
+	-ms-transition: color 300ms linear;
+}
+
+#content
+{
+	position: absolute;
+	top: 40px;
+	left: 220px;
+	right: 20px;
+	min-width: 1080px;
+}
+
+#content-content
+{
+	border: 1px rgba(70, 70, 70, 0.8) solid;
+	margin-top: 20px;
+}
+#content-header
+{
+	width: 100%;
+	height: 35px;
+	background-color: #111;
+}
+
+#content-title
+{
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.9em;
+	padding: 9px 5px 5px 5px;
+	color: #FFF;
+}
+
+#content-box
+{
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.8em;
+	min-height: 10px;
+	background-color: rgba(70, 70, 70, 0.5);
+}
+
+#settings-box
+{
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.8em;
+	min-height: 50px;
+	background-color: rgba(70, 70, 70, 0.5);
+	padding: 8px;
+}
+
+#content-footer
+{
+	width: 100%;
+	height: 30px;
+}
+
+#content-strip
+{
+	width: 100%;
+	display: table-row;
+	height: 40px;
+	padding-top: 5px;
+}
+
+#content-strip2
+{
+	width: 100%;
+	height: 34px;
+	margin-top: 5px;
+}
+
+#content-left
+{
+	min-width: 100px;
+	display: table-cell;
+}
+
+#content-right
+{
+	width: 99.5%;
+	display: table-cell;
+	padding-top: 5px;
+}
+
+#left-text
+{
+	padding: 10px 10px 0px 5px;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.9em;
+	color: #FFF;
+}
+
+#content-right input[type="text"]
+{
+	width: inherit;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 1px #000 solid;
+	padding: 8px 5px 8px 5px;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.9em;
+	color: limegreen;
+	outline-color: limegreen;
+}
+
+#content-right input[type="password"]
+{
+	width: inherit;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 1px #000 solid;
+	padding: 8px 5px 8px 5px;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.9em;
+	color: limegreen;
+	outline-color: limegreen;
+}
+
+#content-right input[type="number"]
+{
+	width: inherit;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 1px #000 solid;
+	padding: 8px 5px 8px 5px;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.9em;
+	color: limegreen;
+	outline-color: limegreen;
+}
+
+#content-right select
+{
+	width: inherit;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 1px #000 solid;
+	padding: 8px 5px 8px 5px;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.9em;
+	color: limegreen;
+	outline-color: limegreen;
+}
+
+#content-right option
+{
+	width: inherit;
+	height: 35px;
+	color: limegreen;
+	background-color: rgba(0, 0, 0, 0.8);
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 1em;
+	outline: 0px;
+	border: 0px #333 solid;
+}
+
+#ddosform optgroup
+{	
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#content-left input[type="submit"]
+{
+	width: 95%;
+	padding: 6px 10px 6px 10px;
+	color: #FFF;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 1em;
+	margin-left: 5px;
+	outline: 0px;
+	background-color: rgba(0, 200, 0, 0.4);
+	border: 1px #333 solid;	
+	-webkit-transition: background-color 300ms linear;
+	-moz-transition: background-color 300ms linear;
+	-o-transition: background-color 300ms linear;
+	-ms-transition: background-color 300ms linear;
+}
+
+#content-left input[type="submit"]:hover
+{
+	width: 95%;
+	padding: 6px 10px 6px 10px;
+	color: #FFF;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 1em;
+	margin-left: 5px;
+	outline: 0px;
+	background-color: rgba(0, 200, 0, 0.6);
+	border: 1px #333 solid;
+	cursor: pointer;	
+	-webkit-transition: background-color 300ms linear;
+	-moz-transition: background-color 300ms linear;
+	-o-transition: background-color 300ms linear;
+	-ms-transition: background-color 300ms linear;
+}
+
+#content-right input[type="submit"]
+{
+	width: 150px;
+	padding: 6px 10px 6px 10px;
+	color: #FFF;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 1em;
+	outline: 0px;
+	background-color: rgba(200, 0, 0, 0.5);
+	border: 1px #111 solid;	
+	-webkit-transition: background-color 300ms linear;
+	-moz-transition: background-color 300ms linear;
+	-o-transition: background-color 300ms linear;
+	-ms-transition: background-color 300ms linear;
+}
+
+#content-right input[type="submit"]:hover
+{
+	width: 150px;
+	padding: 6px 10px 6px 10px;
+	color: #FFF;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 1em;
+	outline: 0px;
+	background-color: rgba(200, 0, 0, 0.7);
+	border: 1px #111 solid;
+	cursor: pointer;	
+	-webkit-transition: background-color 300ms linear;
+	-moz-transition: background-color 300ms linear;
+	-o-transition: background-color 300ms linear;
+	-ms-transition: background-color 300ms linear;
+}
+
+#content-out
+{
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.8em;
+}
+
+#content-out input[type="submit"]
+{
+	width: 100px;
+	padding: 6px 10px 6px 10px;
+	color: #FFF;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 1em;
+	margin-top: 5px;
+	outline: 0px;
+	background-color: rgba(0, 200, 0, 0.6);
+	border: 1px #333 solid;	
+	-webkit-transition: background-color 300ms linear;
+	-moz-transition: background-color 300ms linear;
+	-o-transition: background-color 300ms linear;
+	-ms-transition: background-color 300ms linear;
+}
+
+#content-out input[type="submit"]:hover
+{
+	width: 100px;
+	padding: 6px 10px 6px 10px;
+	color: #FFF;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 1em;
+	outline: 0px;
+	background-color: rgba(0, 200, 0, 0.8);
+	border: 1px #333 solid;
+	cursor: pointer;	
+	-webkit-transition: background-color 300ms linear;
+	-moz-transition: background-color 300ms linear;
+	-o-transition: background-color 300ms linear;
+	-ms-transition: background-color 300ms linear;
+}
+
+#navigation
+{
+	
+}
+
+#navigation ul
+{
+	list-style: none;
+	list-style-type: none;
+	margin: 0px 0px 0px 1px;
+	padding: 0px;
+}
+
+#navigation li a
+{
+	padding: 5px 5px 5px 5px;
+	color: #FFF;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.7em;
+	text-decoration: none;
+	float: left;
+}
+
+#navigation li a:hover
+{
+	padding: 5px 5px 5px 5px;
+	color: limegreen;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.7em;
+	text-decoration: none;
+	float: left;
+	background-color: #333;
+}
+
+#content-text
+{
+	padding: 5px;
+}
+
+#content table
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	border-collapse: collapse;
+}
+
+#content th
+{
+	min-width: 11.11%;
+	color: limegreen;
+	padding: 6px;
+	background-color: #333;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.7em;
+	text-align: left;
+	border-bottom: 1px #000 solid;
+}
+
+#content tr
+{
+	padding: 5px;
+	background-color: rgba(50, 50, 50, 0.5);
+}
+
+#content tr:nth-child(odd)
+{
+	padding: 5px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#content td
+{
+	min-width: 11.11%;
+	padding: 7px 5px 6px 10px;
+	color: #FFF;
+	font-family: 'Electrolize', sans-serif;
+	font-weight: normal;
+	font-size: 0.65em;
+	text-align: left;
+	letter-spacing: 0.5px;
+}
+
+#content th:last-child
+{
+	text-align: right;
+	padding-right: 15px;
+}
+
+#content td:last-child
+{
+	text-align: right;
+	padding-right: 15px;
+}
+
+.last
+{
+	text-align: right;
+}

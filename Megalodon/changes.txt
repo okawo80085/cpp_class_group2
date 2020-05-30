@@ -1,0 +1,6 @@
+Removed some HTTP requests that checked for "1"
+Replaced with code that just returns true instead
+
+Replaced serial string from "Cracked by Solus Anima blah blah" to "By Solus Anima & Rottweiler"
+
+Stub seems to be built fine, tested in VM
